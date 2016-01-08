@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Elections</title>
+    <script src="scripts/vendors/angular.min.js"></script>
+    <script src="scripts/clients.js"></script>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+</head>
+<body ng-controller="myController">
+
+    <button class="loadCandidates" ng-click="getData()">Load Candidates</button>
+    <ul>
+        <li ng-repeat="person in list">{{person}}</li>
+    </ul>
+
+    <button class="pickWinner" ng-click="pickWinner()">Pick Winner</button>
+    <ul>{{winner}}</ul>
+
+
+
+</body>
+</html>
