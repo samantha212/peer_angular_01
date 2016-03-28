@@ -1,6 +1,6 @@
 # peer_angular_01
 
-In-class peer assignment with Chris Graff. 
+In-class peer assignment with Chris Graff - Jan 8
 
 Create an app that loads a list of presidential candidates from static JSON files.  Randomly select a winner from the candidate list.  
 
